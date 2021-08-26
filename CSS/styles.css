@@ -283,8 +283,8 @@ body{
 
 @media (max-width: 500px){
 
-  .interest ul{
-    grid-template-columns: repeat(2,1fr);
+  .skills .box{
+    grid-template-columns: repeat(1,1fr);
   }
   }
 }
