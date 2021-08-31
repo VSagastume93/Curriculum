@@ -143,8 +143,8 @@ body{
 }
 
 .contactinfo.education a:hover{
-  color:#03a9f4;
-  font-weight: bold;
+  color: #848c90;
+  transition: color .3s;
 }
 
 .contactinfo.languages .percent {
@@ -162,6 +162,11 @@ body{
   left: 0;
   height: 100%;
   background: #03a9f4;
+}
+
+.contactinfo.languages .percent div:hover{
+  background: #848c90;
+  transition: background .3s;
 }
 
 .container .right-side{
@@ -210,6 +215,16 @@ body{
   margin:0;
   text-transform: uppercase;
   color: #105379
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
+a:hover{
+  color: #848c90;
+  transition: color .3s;
 }
 
 .skills .box{
@@ -290,3 +305,4 @@ body{
 
   }
 }
+
