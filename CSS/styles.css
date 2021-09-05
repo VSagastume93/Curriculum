@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
-
 {
   margin: 0;
   padding: 0;
@@ -110,6 +109,7 @@ body{
   width: 30px;
   font-size: 18px;
   color: #03a9f4;
+
 }
 
 .contactinfo ul li span{
@@ -281,7 +281,32 @@ a:hover{
   padding: 10px;
 }
 
-@media (max-width: 1000px)
+@media (max-width: 1200px)
+{
+
+  .contactinfo ul{
+    padding-left: 0px;
+  }
+
+}
+
+@media (max-width: 1100px){
+
+    .contactinfo ul{
+      padding-left: 0px;
+
+    }
+
+    .container .left-side{
+      padding-right: 40px;
+    }
+
+    .contactinfo ul li .icon{
+      display: none;
+  }
+}
+
+@media (max-width: 800px)
 {
   .container
   {
@@ -300,20 +325,13 @@ a:hover{
   .contactinfo ul{
     padding-left: 0px;
   }
+
+   .contactinfo ul li .icon{
+      display: inline-block;
+  }
+
+
 }
 
-@media (max-width: 1920px){
 
-  .skills .box{
-    grid-template-columns: repeat(1,1fr);
-  }
-
-  .interest .box{
-    grid-template-columns: repeat(1,1fr);
-  }
-
-
-
-  }
-}
 
