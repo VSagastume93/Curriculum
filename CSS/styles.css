@@ -93,7 +93,7 @@ body{
 
 .contactinfo ul{
   position: relative;
-  padding-left: 20px;
+
 
 }
 
@@ -295,6 +295,10 @@ a:hover{
 
   .about .box{
     flex-direction: column;
+  }
+
+  .contactinfo ul{
+    padding-left: 0px;
   }
 }
 
