@@ -197,13 +197,14 @@ body{
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
+  text-align: left;
 }
 
 
 .about .box{
   display: flex;
   flex-direction: row;
-  margin: 20px ;
+  margin: 0px ;
   text-align: justify;
 }
 
@@ -213,8 +214,8 @@ body{
 
 .about .box .text h4{
   margin:0;
-  text-transform: uppercase;
-  color: #105379
+  text-transform:uppercase;
+  color: #105379;
 }
 
 a{
@@ -296,12 +297,17 @@ a:hover{
   }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1920px){
 
   .skills .box{
     grid-template-columns: repeat(1,1fr);
-
   }
+
+  .interest .box{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+
 
   }
 }
